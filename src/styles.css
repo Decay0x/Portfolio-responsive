@@ -1,3 +1,13 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'tailwindcss';
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.separator {
+  width: 0;
+  height: 0;
+  border-left: 97.5vw solid transparent;
+  border-bottom: 16rem solid white;
+  border-top: 80rem solid transparent;
+  margin-bottom: 8rem;
+  margin-top: -102rem;
+}
